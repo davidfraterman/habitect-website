@@ -8,12 +8,10 @@
     width: 5px;
 }
 
-::-webkit-scrollbar-track {
-    color: grey;
-}
+
 
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(#26578F, #26578F);
+    background-image: linear-gradient(to top,#121e63, #142764);
 }
 
 .container {
@@ -25,7 +23,7 @@
 body {
     
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     background:white no-repeat fixed center;
 }
 
@@ -80,7 +78,7 @@ nav ul{
 
 nav img {
     width: 10rem;
-
+    margin-right: 1.5rem;
 }
 
 
@@ -96,11 +94,11 @@ mark {
 }
 
 button {
-    font-size: 105%;
+    font-size: 110%;
     color:white;
     font-family: 'Poppins';
     font-weight: 300;
-    background-image: linear-gradient(to left, #26578F, #406FA6);
+    background-image: linear-gradient(to left, #26578F, #4c7aaf);
     border:none;
     filter: drop-shadow(0.2rem .2rem 0.2rem darkgrey);
     padding:15px;
@@ -119,8 +117,8 @@ nav .createaccount button {
     background-image: linear-gradient(to left, #26578F, #406FA6);
     margin-left: 0;
     padding:10px;
-    padding-left:25px;
-    padding-right: 25px;
+    padding-left:20px;
+    padding-right: 20px;
     border-radius:1000px;
     
     border:none;
@@ -141,7 +139,7 @@ button:hover {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 0rem;
     margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
 }
 
 .hero img {
@@ -151,7 +149,7 @@ button:hover {
 
 h1 {
     font-size: 300%;
-    line-height: 100%;
+    line-height: 110%;
 }
 
 h2 {
@@ -169,8 +167,8 @@ p {
 
 .howitworks {
     color: white;
-    background-image: linear-gradient(to left, #26578F, #406FA6);
-    margin-bottom: 5rem;
+    background-image: linear-gradient(to left, #26578F, #4577af);
+    margin-bottom: 10rem;
 }
 
 .howitworks div {
@@ -187,12 +185,11 @@ p {
 
 .howitworks section {
     border-radius: 8px;
-    background-image: linear-gradient(to left, black, #222);
+    background-image: linear-gradient(to right, rgb(3, 3, 3), rgb(31, 31, 31));
     padding: 2.5rem;
     margin: 1.5rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
- 
 }
 
 .howitworks h3 {
@@ -202,10 +199,11 @@ p {
     font-size: 160%;
     text-align: center;
     padding: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     background-color: #FFFFFF;
-    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     display: inline-block;
 }
 
@@ -221,5 +219,80 @@ p {
     text-align: center;
     color: #CACACA;
     font-weight: normal;
+}
+
+.subhero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4rem;
+    margin-bottom: 0;
+}
+
+.subhero button {
+    margin-top: 2rem;
+}
+
+.subhero img {
+    width: 30rem;
+  
+}
+
+.treeofsuccess {
+    background-color: #3E6B94;
+    margin-top: 0;
+    margin-bottom: 10rem;
+}
+
+.treeofsuccess div {
+    
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5rem;
+   
+   
+}
+
+.treeofsuccess section {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.treeofsuccess h1 {
+    color: white;
+}
+
+.treeofsuccess p {
+    color: #e0e0e0;
+}
+
+.treeofsuccess button {
+    margin-top: 3rem;
+    background-image: linear-gradient(to right, rgb(3, 3, 3), rgb(39, 39, 39));
+    filter: none;
+}
+
+.treeofsuccess h3 {
+    color: #3E6B94;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    font-size: 160%;
+    text-align: center;
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: inline-block;
+}
+
+.treeofsuccess img {
+    float: right;
+}
+
+.treeofsuccess mark {
+    color: #8BCCF1;
 }
 
