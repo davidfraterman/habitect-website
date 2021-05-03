@@ -10,22 +10,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
     <!-- CSS & JS -->
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script src="script/menu.js"></script>
     <!-- Title -->
     <title>Habitual - Make new habits</title>
 </head>
 <body>
     <main class="container">
         <nav>
-            <ul>
+            <ul class="desktopnavbar">
                 <a href="#"><img src="img/logohabitual.PNG" alt="The logo of Habitual"></a>
 
-                <li> <a href="thepsychology.html">The Psychology</a> </li>
-                <li> <a href="#">FAQ Finder</a> </li>
-                <li> <a href="#">About</a> </li>
+                <li class="menuitem"> <a href="thepsychology.html">The Psychology</a> </li>
+                <li class="menuitem"> <a href="#">FAQ Finder</a> </li>
+                <li class="menuitem"> <a href="#">About</a> </li>
                 <li class="createaccount"><button>Create Account</button></li>
                 <li class="login"> <a href="#">Log in</a> </li>
-                <img class="hamburgermenu" src="img/hamburgermenu.png" alt="hamburger menu buttons">
+                
             </ul>
+
+            <ul class="mobilenavbar">
+                <a href="#"><img src="img/logohabitual.PNG" alt="The logo of Habitual"></a>
+
+                
+                <img class="hamburgermenu" src="img/hamburgermenu.png" alt="hamburger menu buttons" onclick="opennav()">
+            </ul>
+
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close" onclick="closenav()">&times;</span>
+                  <li class="menuitem"> <a href="thepsychology.html">The Psychology</a> </li>
+                  <li class="menuitem"> <a href="#">FAQ Finder</a> </li>
+                  <li class="menuitem"> <a href="#">About</a> </li>
+                  <li class="createaccount"><button>Create Account</button></li>
+                  <li class="login"> <a href="#">Log in</a> </li>
+                </div>
+              
+              </div>
             
         </nav>
 
