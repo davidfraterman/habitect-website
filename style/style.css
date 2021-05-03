@@ -24,8 +24,6 @@ body {
     background:white no-repeat fixed center;
 }
 
-
-
 ul {
     list-style-type: none;
     margin: 0 auto;
@@ -37,9 +35,7 @@ li {
     margin-right: 1.5em;
 }
 
-li .active {
-    color: #4560A5;
-}
+
 
 li a {
     font-size: 100%;
@@ -48,6 +44,17 @@ li a {
     color: #606060;
     font-weight: 100;
 }
+
+li a:hover{
+    color: #26578F;
+    border-bottom: 1px solid #26578F;
+}
+
+li .active {
+    color: #4560A5;
+    border-bottom: 1px solid #26578F;
+}
+
 
 nav ul{
     margin-top: 2rem;
@@ -86,11 +93,12 @@ button {
     font-weight: 300;
     background-image: linear-gradient(to left, #26578F, #406FA6);
     border:none;
-    filter: drop-shadow(0.1rem .1rem 0.4rem darkgrey);
+    filter: drop-shadow(0.2rem .2rem 0.2rem darkgrey);
     padding:10px;
     padding-left:25px;
     padding-right: 25px;
     border-radius:1000px;
+    transition: 0.2s all;
 }
 
 .hero button {
@@ -99,6 +107,7 @@ button {
 
 button:hover {
     cursor: pointer;
+    transform: scale(1.02);
 }
 
 .hero {
@@ -122,22 +131,41 @@ h2 {
 
 .howitworks {
     color: white;
+    background-image: linear-gradient(to left, #26578F, #406FA6);
+}
+
+.howitworks div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #3E6B94;
 }
 
 .howitworks section {
     margin: 5rem;
+    margin-top: 5rem;
+}
+
+.howitworks h3 {
+    color: #3E6B94;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    font-size: 150%;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #FFFFFF;
+    border-bottom-right-radius: 8px;
+    display: inline-block;
 }
 
 .howitworks h4 {
     font-size: 120%;
     letter-spacing: 0.1rem;
     margin-bottom: 1rem;
+    color: #ECECEC;
+    text-align: center;
 }
 
 .howitworks p {
-    color: #D4E5FF;
+    text-align: center;
+    color: #D7DDE8;
     font-weight: normal;
 }
