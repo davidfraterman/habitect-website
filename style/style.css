@@ -17,7 +17,7 @@
 .container {
     width: 70%;
     margin: 0 auto;
-    min-height: 100vh;
+  
 }
 
 body {
@@ -161,7 +161,7 @@ h2 {
 }
 
 p {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     color:#606060;
 }
 
@@ -225,7 +225,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 4rem;
-    margin-bottom: 0;
+    margin-bottom: 10rem;
 }
 
 .subhero button {
@@ -238,7 +238,7 @@ p {
 }
 
 .treeofsuccess {
-    background-color: #3E6B94;
+    background-image: linear-gradient(to left, #26578F, #4577af);
     margin-top: 0;
     margin-bottom: 10rem;
 }
@@ -288,11 +288,158 @@ p {
     display: inline-block;
 }
 
+.treeofsuccess .title {
+    display: flex;
+    justify-content: center;
+}
+
 .treeofsuccess img {
-    float: right;
+    width: 40rem;
+   
 }
 
 .treeofsuccess mark {
     color: #8BCCF1;
 }
 
+footer {
+   
+    background-color: #414141;
+}
+
+footer article {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+
+footer p {
+    color: #C4C4C4;
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+footer h4 {
+    font-size: 110%;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+@media only screen and (max-width: 1700px) {
+    .treeofsuccess div{
+     grid-template-columns: 1fr;
+    }
+
+    .treeofsuccess img {
+        display: none;
+    }
+
+    .treeofsuccess section {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .container {
+        width: 90%;
+    }
+
+    .howitworks div {
+        width: 90%;
+    }
+
+
+
+    .treeofsuccess div{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .container {
+        width: 95%;
+    }
+
+    .howitworks div {
+        width: 95%;
+    }
+
+    .treeofsuccess div{
+        width: 95%;
+    }
+
+    footer article {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 85%;
+    }
+
+    .howitworks div {
+        width: 85%;
+    }
+
+    .treeofsuccess div{
+        width: 85%;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .hero img {
+        float: none;
+        display:block;
+        margin:auto;
+    }
+
+    .hero h1 {
+        text-align: center;
+    }
+
+    .hero h2 {
+        text-align: center;
+    }
+
+    .hero button {
+        
+        display: block;
+        margin: auto;
+
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .howitworks div {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 70%;
+        margin-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .howitworks section {
+        
+        margin: 1.5rem;
+    }
+
+    .subhero img {
+        float: none;
+        display:block;
+        margin:auto;
+    }
+
+    .subhero {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        display: none;
+    }
+}
