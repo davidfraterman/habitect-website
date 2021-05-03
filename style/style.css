@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -12,7 +13,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(darkgrey, darkgrey);
+    background-image: linear-gradient(#26578F, #26578F);
 }
 
 body {
@@ -33,9 +34,21 @@ li {
     display: inline-block;
     margin-left: 1.5em;
     margin-right: 1.5em;
+
 }
 
 
+
+
+
+li:last-of-type,li:nth-last-of-type(2) {
+    margin-right: 0;
+    float: right;
+}
+
+ul img {
+    vertical-align: middle;
+}
 
 li a {
     font-size: 100%;
@@ -43,6 +56,7 @@ li a {
     text-decoration: none;
     color: #606060;
     font-weight: 100;
+    vertical-align: middle;
 }
 
 li a:hover{
@@ -61,13 +75,13 @@ nav ul{
 }
 
 nav img {
-    width: 10%;
+    width: 10rem;
+
 }
 
 
 nav .login a{
     color: #3E6B94;
-    margin-left: 5rem;
     margin-right: 0rem;
 }
 
@@ -76,15 +90,19 @@ nav .createaccount button {
     font-family: 'Poppins';
     font-weight: 300;
     background-image: linear-gradient(to left, #26578F, #406FA6);
-    margin-left: 0em;
+    margin-left: 0;
     padding:10px;
     padding-left:25px;
     padding-right: 25px;
     border-radius:1000px;
-    float: right;
-    right: 0;
+    
     border:none;
     filter: drop-shadow(0.1rem .1rem 0.4rem darkgrey);
+}
+
+mark {
+    background:none;
+    color: #26578F;
 }
 
 button {
@@ -113,8 +131,14 @@ button:hover {
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-row-gap: 20px;
+    grid-column-gap: 0rem;
     margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.hero img {
+    width: 70%;
+    float:right;
 }
 
 h1 {
@@ -126,7 +150,12 @@ h2 {
     font-weight: bold;
     color: #9E9E9E;
     letter-spacing: 0.15rem;
-    font-size: 120%;
+    font-size: 110%;
+}
+
+p {
+    margin-top: 2rem;
+    color:#606060;
 }
 
 .howitworks {
