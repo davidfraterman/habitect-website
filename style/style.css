@@ -1,7 +1,15 @@
 * {
     margin: 0;
     padding: 0;
+   
+
 }
+
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
 
 
 ::-webkit-scrollbar {
@@ -10,14 +18,16 @@
 
 
 
+
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to top,#121e63, #142764);
+    background-image: linear-gradient(to top,#1c427c, #183b85);
 }
+
+
 
 .container {
     width: 70%;
     margin: 0 auto;
-  
 }
 
 body {
@@ -46,6 +56,7 @@ li {
 li:last-of-type,li:nth-last-of-type(2) {
     margin-right: 0;
     float: right;
+    vertical-align: middle;
 }
 
 ul img {
@@ -72,7 +83,7 @@ li .active {
 }
 
 
-nav ul{
+nav ul {
     margin-top: 2.5rem;
 }
 
@@ -81,8 +92,11 @@ nav img {
     margin-right: 1.5rem;
 }
 
+nav .hamburgermenu {
+    display: none;
+}
 
-nav .login a{
+nav .login a {
     color: #3E6B94;
     margin-right: 0rem;
 }
@@ -150,6 +164,7 @@ button:hover {
 h1 {
     font-size: 300%;
     line-height: 110%;
+    border:none;
 }
 
 h2 {
@@ -303,7 +318,7 @@ p {
 }
 
 footer {
-   
+    overflow-x: hidden;
     background-color: #414141;
 }
 
@@ -381,9 +396,31 @@ footer h4 {
         width: 85%;
     }
 
-    .howitworks div {
-        width: 85%;
+    button {
+        margin:0 auto;
+        display:block;
     }
+
+    footer article {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    footer article:nth-last-child(1) {
+        margin-bottom: 3rem;
+    }
+
+    footer article p {
+        text-align: center;
+    }
+
+    footer article h4 {
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 3rem;
+    }
+    
 
     .treeofsuccess div{
         width: 85%;
@@ -397,6 +434,9 @@ footer h4 {
         float: none;
         display:block;
         margin:auto;
+        width: 20rem;
+        margin-top: 3rem;
+        margin-bottom: 0rem;
     }
 
     .hero h1 {
@@ -416,12 +456,20 @@ footer h4 {
         margin-bottom: 2rem;
     }
 
+    .howitworks {
+        margin-bottom: 4rem;
+    }
+
     .howitworks div {
         grid-template-columns: 1fr;
         margin: 0 auto;
         width: 70%;
         margin-top: 3rem;
         padding-bottom: 3rem;
+    }
+
+    .howitworks .title {
+        margin-top: 0;
     }
 
     .howitworks section {
@@ -433,13 +481,103 @@ footer h4 {
         float: none;
         display:block;
         margin:auto;
+        width: 20rem;
+        margin-bottom: 3rem;
     }
 
     .subhero {
         grid-template-columns: 1fr;
     }
 
-    nav {
+    nav li {
         display: none;
+    }
+
+    nav .hamburgermenu {
+        display: inline-block;
+        width: 4vw;
+        float: right;
+        margin-right:0 ;
+    }
+
+    .treeofsuccess {
+        margin-bottom: 4rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav .hamburgermenu {
+        display: inline-block;
+        width: 7vw;
+        float: right;
+        margin-right:0 ;
+    }
+
+    .hero {
+        margin-top:5rem;
+    }
+
+    /* nav ul li{
+        display: inline-block;
+        width: 10%;
+    }
+
+    nav ul {
+        clear: both;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li a {
+        font-weight: 700;
+        padding: 0;
+        font-size: 7vw;
+        letter-spacing: -0.05em;
+    }
+
+    li:last-of-type,li:nth-last-of-type(2) {
+      
+        float: none;
+    }
+
+    
+    nav .createaccount button {
+        margin-top: 3rem;
+        font-size:7vw;
+        color:white;
+        font-family: 'Poppins';
+        font-weight: 300;
+        background-image: linear-gradient(to left, #26578F, #406FA6);
+        margin-left: 0;
+        padding:10px;
+        padding-left:20px;
+        padding-right: 20px;
+        border-radius:1000px;
+        
+        border:none;
+        filter: drop-shadow(0.1rem .1rem 0.4rem darkgrey);
+    }
+
+    nav img {
+        margin-bottom: 3rem;
+    } */
+}
+
+@media only screen and (max-width: 450px) {
+    .container {
+        width: 95%;
+    }
+
+    .howitworks div {
+        width: 95%;
+    }
+
+    .treeofsuccess div{
+        width: 95%;
+    }
+
+    footer article {
+        width: 85%;
     }
 }
