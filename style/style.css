@@ -4,8 +4,8 @@
    
 
 }
-
-/* * {
+/* 
+* {
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
@@ -508,7 +508,7 @@ p {
 
 
 .signup section img {
-    width: 30rem;
+    width: 25rem;
     margin-top: 1rem;
     padding-right: 5rem;
 }
@@ -535,6 +535,15 @@ p {
 /* ************** */
 
 @media only screen and (max-width: 1700px) {
+    .signup form input[type=submit] {
+        width: 100%;
+        margin: 0;
+    }
+
+    .signup form {
+        width: 120%;
+    }
+
     .treeofsuccess div{
      grid-template-columns: 1fr;
     }
@@ -579,6 +588,15 @@ p {
 
     footer article {
         width: 85%;
+    }
+
+    .signup .formsection {
+        padding :0;
+        margin-right : 4rem
+    }
+
+    .signup form {
+        width: 100%;
     }
 }
 
@@ -769,6 +787,36 @@ p {
         margin-right: 0;
     }
 
+    .signup {
+        grid-template-columns: 1fr;
+    }
+
+    .signup section:first-of-type {
+        border-right: none;
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .signup section:nth-of-type(2) {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .signup .formsection {
+        
+        width: 20rem;
+        display: block;
+        margin: 0 auto;
+    }
+
+   
+    .signup section:first-of-type img {
+      
+        padding-right: 0;
+    }
+    
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -855,5 +903,14 @@ p {
 
     footer article {
         width: 85%;
+    }
+    
+    .signup img {
+        display: none;
+    }
+
+    .signup .formsection form {
+        margin-right: 0;
+        width: 80%;
     }
 }
