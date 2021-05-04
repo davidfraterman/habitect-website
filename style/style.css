@@ -30,6 +30,9 @@
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
 
 
 button a:hover {
@@ -147,6 +150,7 @@ button {
     padding-right: 25px;
     border-radius:1000px;
     transition: 0.2s all;
+    text-decoration: none;
 }
 
 
@@ -607,7 +611,7 @@ p {
 
     button {
         margin:0 auto;
-        display:block;
+        display: block;
     }
 
     footer article {
@@ -666,7 +670,7 @@ p {
         
         display: block;
         margin: auto;
-
+        text-decoration: none;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
