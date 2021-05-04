@@ -538,28 +538,74 @@ p {
 /* FAQ FINDER */
 /* ************** */
 
+.answers {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.answers a {
+    color: #1c3653;
+
+}
+
+.answers a:hover {
+    text-decoration: underline;
+}
+
 .answers h2 {
-    font-size: 300%;
+    font-size: 200%;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .answers section .title {
+    background-image: linear-gradient(to left, #1c3653, #0c243f);
     margin-top: 1rem;
     background-color: #183b85;
     color: white;
+    padding: 1rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.answers section .title:hover {
+    cursor: pointer;
 }
 
 .answers section .content {
     background-color: #9c9c9c;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .answers > section > div > p {
+    font-size: 130%;
     display: inline-block;
     color: white;
+    margin: 0;
+    margin-right: 2rem;
+    margin-left: 0.75rem;
 }
 
 .answers > section > div > h3 {
     display: inline-block;
+    font-weight: 400;
+}
+
+.answers section .content {
+    background-color: #F0F4FF;
+    padding: 1.25rem;
+}
+
+.answers > section > .content > h4 {
+    color: black;
+    font-size:130%;
+}
+
+.answers section .content p {
+    color: black;
+    font-size: 90%;
 }
 
 
