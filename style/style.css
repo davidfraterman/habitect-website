@@ -4,8 +4,8 @@
    
 
 }
-
-/* * {
+/* 
+* {
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
@@ -28,6 +28,12 @@
 .container {
     width: 70%;
     margin: 0 auto;
+}
+
+
+
+button a:hover {
+    text-decoration: none;
 }
 
 body {
@@ -93,6 +99,11 @@ li a:hover{
     color: #26578F;
     border-bottom: 1px solid #26578F;
 }
+
+.createaccount a:hover {
+    border: none;
+}
+
 
 li .active {
     color: #4560A5;
@@ -384,7 +395,7 @@ footer h4 {
 }
 
 .explanations img {
-    width: 15rem;
+    width: 10rem;
 }
 
 .explanations section:nth-of-type(1) img {
@@ -406,11 +417,133 @@ footer h4 {
 }
 
 
+
+/* ************** */
+/* SIGN UP AND LOGIN */
+/* ************** */
+
+.signup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 15rem;
+}
+
+.signup section:first-of-type {
+    padding-right: 5rem;
+    border-right: 2px solid #C4C4C4;
+}
+
+.signup section:nth-of-type(2) {
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.signup form label {
+    color: #1c427c;
+    font-size: 120%;
+}
+
+.signup form input {
+    display: block;
+    border-radius: 5px;
+    border: 2px solid #9c9c9c;
+    padding: 0.75rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+
+.signup form input::placeholder {
+    color: #bdbdbd;
+}
+
+.signup form input[type=submit] {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 1000px;
+    color: white;
+    background-image: linear-gradient(to left, #26578F, #4c7aaf);
+    outline: none;
+    padding: 0.6rem;
+    width: 10rem;
+    filter: drop-shadow(0.2rem .2rem 0.2rem darkgrey);
+    border: none;
+    display: block;
+    margin: auto;
+    transition: 0.2s all;
+}
+
+.signup form input[type=submit]:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+#signupimg {
+    display: flex;
+    justify-content: center;
+}
+
+#signupimg img {
+    width: 15rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+#signupback a {
+    color: #183b85;
+    text-decoration: none;
+    transition: 0.1s all;
+}
+
+#signupback a:hover {
+    color: #406FA6;
+    text-decoration: underline;
+}
+
+p {
+    
+    
+    margin-bottom: 2rem;
+}
+
+
+
+.signup section img {
+    width: 25rem;
+    margin-top: 1rem;
+    padding-right: 5rem;
+}
+
+.signup .formsection {
+    margin-left: 5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    
+}
+
+.signup a {
+    color: #183b85;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 80%;
+}
+
+
 /* ************** */
 /* MEDIA QUERIES */
 /* ************** */
 
 @media only screen and (max-width: 1700px) {
+    .signup form input[type=submit] {
+        width: 100%;
+        margin: 0;
+    }
+
+    .signup form {
+        width: 120%;
+    }
+
     .treeofsuccess div{
      grid-template-columns: 1fr;
     }
@@ -455,6 +588,15 @@ footer h4 {
 
     footer article {
         width: 85%;
+    }
+
+    .signup .formsection {
+        padding :0;
+        margin-right : 4rem
+    }
+
+    .signup form {
+        width: 100%;
     }
 }
 
@@ -515,6 +657,11 @@ footer h4 {
         text-align: center;
     }
 
+    .hero p {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
     .hero button {
         
         display: block;
@@ -553,12 +700,22 @@ footer h4 {
         margin-bottom: 3rem;
     }
 
+    .subhero p {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
     .subhero {
         grid-template-columns: 1fr;
     }
 
     .treeofsuccess {
         margin-bottom: 4rem;
+    }
+
+    .treeofsuccess p {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     /* nav .hamburgermenu {
@@ -629,6 +786,37 @@ footer h4 {
         margin-left: 0;
         margin-right: 0;
     }
+
+    .signup {
+        grid-template-columns: 1fr;
+    }
+
+    .signup section:first-of-type {
+        border-right: none;
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .signup section:nth-of-type(2) {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .signup .formsection {
+        
+        width: 20rem;
+        display: block;
+        margin: 0 auto;
+    }
+
+   
+    .signup section:first-of-type img {
+      
+        padding-right: 0;
+    }
+    
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -715,5 +903,14 @@ footer h4 {
 
     footer article {
         width: 85%;
+    }
+    
+    .signup img {
+        display: none;
+    }
+
+    .signup .formsection form {
+        margin-right: 0;
+        width: 80%;
     }
 }
