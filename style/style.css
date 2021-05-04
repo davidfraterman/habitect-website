@@ -51,65 +51,34 @@ li {
 
 
 
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
 
 
 
 
 
-li:last-of-type,li:nth-last-of-type(2) {
+
+li:nth-last-of-type(2) {
     margin-right: 0;
     float: right;
     vertical-align: middle;
 }
 
-ul img {
+.logo  {
     vertical-align: middle;
 }
 
-nav .mobilenavbar {
-    display:none;
+/* 
+nav .hamburgermenu {
+    transition: 0.3s all;
+    float: right;
+    display: none;
 }
 
-nav .mobilenavbar .hamburgermenu {
-    float: right;
-}
+nav .hamburgermenu:hover {
+    cursor: pointer;
+    transform: rotate(180deg);
+} */
+
 
 li a {
     font-size: 100%;
@@ -135,7 +104,7 @@ nav ul {
     margin-top: 2.5rem;
 }
 
-nav img {
+.logo {
     width: 10rem;
     margin-right: 1.5rem;
 }
@@ -145,6 +114,7 @@ nav img {
 nav .login a {
     color: #3E6B94;
     margin-right: 0rem;
+    font-weight: 400;
 }
 
 
@@ -389,6 +359,18 @@ footer h4 {
     color: white;
 }
 
+/* THE PSYCHOLOGY */
+
+.heropsy section:first-of-type {
+    border-right: 2px solid #d6d6d6;
+    padding-right: 6rem;
+    padding-left: 0;
+}
+
+.heropsy p {
+    margin-left: 6rem;
+}
+
 @media only screen and (max-width: 1700px) {
     .treeofsuccess div{
      grid-template-columns: 1fr;
@@ -447,10 +429,6 @@ footer h4 {
         display:block;
     }
 
-    nav .mobilenavbar {
-        display: block;
-    }
-
     footer article {
         display: grid;
         grid-template-columns: 1fr;
@@ -478,6 +456,7 @@ footer h4 {
 
     .hero {
         grid-template-columns: 1fr;
+        margin-right: 0rem;
     }
 
     .hero img {
@@ -539,30 +518,68 @@ footer h4 {
         grid-template-columns: 1fr;
     }
 
-    nav .desktopnavbar {
-        display: none;
-    }
-
-
-    nav .mobilenavbar .hamburgermenu {
-        width: 3rem;
-    }
-
     .treeofsuccess {
         margin-bottom: 4rem;
+    }
+
+    /* nav .hamburgermenu {
+        display: block;
+        font-size: 200%;
+    } */
+
+    nav {
+        border-bottom: 1px solid #bdbdbd;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    nav ul li{
+        text-align: center;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    nav ul li a {
+        color: #414141;
+    }
+
+    nav ul li:nth-last-child(2) {
+        float: none;
+        margin-left: 0;
+    }
+
+    nav ul li:nth-last-child(1) {
+        margin-right: 0;
+        margin-left: 0;
+    float: none;
+    vertical-align: middle;
+    }
+
+    nav .createaccount button {
+        display: block;
+        margin: auto;
+ 
+        margin-top: 3rem;
+    
+    }
+
+    nav > ul > a {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .hero {
+        margin-top: 5rem;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    nav .hamburgermenu {
-        display: inline-block;
-        width: 7vw;
-        float: right;
-        margin-right:0 ;
-    }
 
     .hero {
-        margin-top:5rem;
+        margin-top:4rem;
     }
 
     /* nav ul li{

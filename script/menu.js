@@ -1,26 +1,14 @@
-// Get the modal
-var modal = document.getElementById("myModal");
+const openMenu = () => {
+  const menuItems = document.querySelector('nav').querySelector('ul').querySelectorAll('li');
+  const menu = document.querySelector('nav');
+  const hamburgerMenu = document.querySelector('.hamburgermenu');
 
-// Get the button that opens the modal
-var btn = document.querySelector("hamburgermenu");
-        
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-function opennav() {
-  modal.style.display = "block";
+  menuItems.forEach(menuItem => {
+    menuItem.style.display = 'block';
+    
+  });
 }
 
-
-// When the user clicks on <span> (x), close the modal
-function closenav() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-function closenavclickanywhere(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+// window.onload = () => {
+//   openMenu();
+// }
