@@ -535,6 +535,36 @@ p {
 
 
 /* ************** */
+/* FAQ FINDER */
+/* ************** */
+
+.answers h2 {
+    font-size: 300%;
+    text-align: center;
+}
+
+.answers section .title {
+    margin-top: 1rem;
+    background-color: #183b85;
+    color: white;
+}
+
+.answers section .content {
+    background-color: #9c9c9c;
+}
+
+.answers > section > div > p {
+    display: inline-block;
+    color: white;
+}
+
+.answers > section > div > h3 {
+    display: inline-block;
+}
+
+
+
+/* ************** */
 /* MEDIA QUERIES */
 /* ************** */
 
