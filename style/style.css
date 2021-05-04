@@ -359,7 +359,11 @@ footer h4 {
     color: white;
 }
 
+
+
+/* ************** */
 /* THE PSYCHOLOGY */
+/* ************** */
 
 .heropsy section:first-of-type {
     border-right: 2px solid #d6d6d6;
@@ -370,6 +374,41 @@ footer h4 {
 .heropsy p {
     margin-left: 6rem;
 }
+
+.explanations {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5rem;
+}
+
+.explanations img {
+    width: 15rem;
+}
+
+.explanations section:nth-of-type(1) img {
+    float: right;
+}
+
+.explanations {
+    margin-top: 5rem;
+  
+}
+
+
+#psy-button {
+    margin: auto;
+    display: block;
+    float: none;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+
+/* ************** */
+/* MEDIA QUERIES */
+/* ************** */
 
 @media only screen and (max-width: 1700px) {
     .treeofsuccess div{
@@ -552,8 +591,8 @@ footer h4 {
     nav ul li:nth-last-child(1) {
         margin-right: 0;
         margin-left: 0;
-    float: none;
-    vertical-align: middle;
+        float: none;
+        vertical-align: middle;
     }
 
     nav .createaccount button {
@@ -573,6 +612,38 @@ footer h4 {
 
     .hero {
         margin-top: 5rem;
+    }
+
+
+    .heropsy section:first-of-type {
+        border-right: none;
+        padding-right: 0rem;
+        padding-left: 0;
+    }
+
+    .heropsy section p {
+        margin-left: 0;
+    }
+
+    .explanations {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .explanations {
+        grid-template-columns: 1fr;
+    }
+
+    .explanations section figure img {
+        display: block;
+        width: 80vw;
+        margin-left: 1.25rem;
+    }
+
+    .explanations section:nth-of-type(2) img{
+        display: none;
     }
 }
 
