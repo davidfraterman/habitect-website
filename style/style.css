@@ -515,6 +515,11 @@ footer h4 {
         text-align: center;
     }
 
+    .hero p {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
     .hero button {
         
         display: block;
@@ -553,12 +558,22 @@ footer h4 {
         margin-bottom: 3rem;
     }
 
+    .subhero p {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
     .subhero {
         grid-template-columns: 1fr;
     }
 
     .treeofsuccess {
         margin-bottom: 4rem;
+    }
+
+    .treeofsuccess p {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     /* nav .hamburgermenu {
