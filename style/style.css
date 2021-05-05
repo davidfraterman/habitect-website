@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-   
-
 }
 /* 
 * {
@@ -11,19 +9,13 @@
     outline: solid #f00 1px !important;
   } */
 
-
 ::-webkit-scrollbar {
     width: 5px;
 }
 
-
-
-
 ::-webkit-scrollbar-thumb {
     background-image: linear-gradient(to top,#1c427c, #183b85);
 }
-
-
 
 .container {
     width: 70%;
@@ -34,13 +26,11 @@ a {
     text-decoration: none;
 }
 
-
 button a:hover {
     text-decoration: none;
 }
 
 body {
-    
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     background:white no-repeat fixed center;
@@ -55,16 +45,7 @@ li {
     display: inline-block;
     margin-left: 1.5em;
     margin-right: 1.5em;
-
 }
-
-
-
-
-
-
-
-
 
 li:nth-last-of-type(2) {
     margin-right: 0;
@@ -75,19 +56,6 @@ li:nth-last-of-type(2) {
 .logo  {
     vertical-align: middle;
 }
-
-/* 
-nav .hamburgermenu {
-    transition: 0.3s all;
-    float: right;
-    display: none;
-}
-
-nav .hamburgermenu:hover {
-    cursor: pointer;
-    transform: rotate(180deg);
-} */
-
 
 li a {
     font-size: 100%;
@@ -107,12 +75,10 @@ li a:hover{
     border: none;
 }
 
-
 li .active {
     color: #4560A5;
     border-bottom: 1px solid #26578F;
 }
-
 
 nav ul {
     margin-top: 2.5rem;
@@ -123,14 +89,11 @@ nav ul {
     margin-right: 1.5rem;
 }
 
-
-
 nav .login a {
     color: #3E6B94;
     margin-right: 0rem;
     font-weight: 400;
 }
-
 
 mark {
     background:none;
@@ -153,7 +116,6 @@ button {
     text-decoration: none;
 }
 
-
 nav .createaccount button {
     font-size: 90%;
     color:white;
@@ -165,7 +127,6 @@ nav .createaccount button {
     padding-left:20px;
     padding-right: 20px;
     border-radius:1000px;
-    
     border:none;
     filter: drop-shadow(0.1rem .1rem 0.4rem darkgrey);
 }
@@ -290,14 +251,11 @@ p {
 }
 
 .treeofsuccess div {
-    
     width: 70%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 5rem;
-   
-   
 }
 
 .treeofsuccess section {
@@ -341,7 +299,6 @@ p {
 
 .treeofsuccess img {
     width: 40rem;
-   
 }
 
 .treeofsuccess mark {
@@ -361,7 +318,6 @@ footer article {
     padding: 5rem;
 }
 
-
 footer p {
     color: #C4C4C4;
     margin-top: 0;
@@ -373,8 +329,6 @@ footer h4 {
     margin-bottom: 2rem;
     color: white;
 }
-
-
 
 /* ************** */
 /* THE PSYCHOLOGY */
@@ -408,9 +362,7 @@ footer h4 {
 
 .explanations {
     margin-top: 5rem;
-  
 }
-
 
 #psy-button {
     margin: auto;
@@ -419,8 +371,6 @@ footer h4 {
     margin-top: 7rem;
     margin-bottom: 7rem;
 }
-
-
 
 /* ************** */
 /* SIGN UP AND LOGIN */
@@ -455,7 +405,6 @@ footer h4 {
     margin-bottom: 2rem;
     width: 100%;
 }
-
 
 .signup form input::placeholder {
     color: #bdbdbd;
@@ -504,12 +453,8 @@ footer h4 {
 }
 
 p {
-    
-    
     margin-bottom: 2rem;
 }
-
-
 
 .signup section img {
     width: 25rem;
@@ -520,8 +465,7 @@ p {
 .signup .formsection {
     margin-left: 5rem;
     padding-left: 7rem;
-    padding-right: 7rem;
-    
+    padding-right: 7rem; 
 }
 
 .signup a {
@@ -532,7 +476,6 @@ p {
     margin-top: 1rem;
     font-size: 80%;
 }
-
 
 /* ************** */
 /* FAQ FINDER */
@@ -546,7 +489,6 @@ p {
 
 .answers a {
     color: #1c3653;
-
 }
 
 .answers a:hover {
@@ -608,13 +550,12 @@ p {
     font-size: 90%;
 }
 
-
-
 /* ************** */
 /* MEDIA QUERIES */
 /* ************** */
 
 @media only screen and (max-width: 1700px) {
+
     .signup form input[type=submit] {
         width: 100%;
         margin: 0;
@@ -638,6 +579,7 @@ p {
 }
 
 @media only screen and (max-width: 1400px) {
+
     .container {
         width: 90%;
     }
@@ -646,14 +588,13 @@ p {
         width: 90%;
     }
 
-
-
     .treeofsuccess div{
         width: 90%;
     }
 }
 
 @media only screen and (max-width: 1100px) {
+
     .container {
         width: 95%;
     }
@@ -681,6 +622,7 @@ p {
 }
 
 @media only screen and (max-width: 1000px) {
+
     .container {
         width: 85%;
     }
@@ -710,7 +652,6 @@ p {
         margin-top: 3rem;
     }
     
-
     .treeofsuccess div{
         width: 85%;
     }
@@ -743,7 +684,6 @@ p {
     }
 
     .hero button {
-        
         display: block;
         margin: auto;
         text-decoration: none;
@@ -768,7 +708,6 @@ p {
     }
 
     .howitworks section {
-        
         margin: 1.5rem;
     }
 
@@ -797,11 +736,6 @@ p {
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
-
-    /* nav .hamburgermenu {
-        display: block;
-        font-size: 200%;
-    } */
 
     nav {
         border-bottom: 1px solid #bdbdbd;
@@ -835,9 +769,7 @@ p {
     nav .createaccount button {
         display: block;
         margin: auto;
- 
         margin-top: 3rem;
-    
     }
 
     nav > ul > a {
@@ -850,7 +782,6 @@ p {
     .hero {
         margin-top: 5rem;
     }
-
 
     .heropsy section:first-of-type {
         border-right: none;
@@ -884,22 +815,18 @@ p {
     }
 
     .signup .formsection {
-        
         width: 20rem;
         display: block;
         margin: 0 auto;
     }
 
-   
     .signup section:first-of-type img {
-      
         padding-right: 0;
     }
-    
-
 }
 
 @media only screen and (max-width: 750px) {
+
     .explanations {
         grid-template-columns: 1fr;
     }
@@ -920,55 +847,10 @@ p {
     .hero {
         margin-top:4rem;
     }
-
-    /* nav ul li{
-        display: inline-block;
-        width: 10%;
-    }
-
-    nav ul {
-        clear: both;
-        width: 100%;
-        text-align: center;
-        padding: 0;
-    }
-
-    nav ul li a {
-        font-weight: 700;
-        padding: 0;
-        font-size: 7vw;
-        letter-spacing: -0.05em;
-    }
-
-    li:last-of-type,li:nth-last-of-type(2) {
-      
-        float: none;
-    }
-
-    
-    nav .createaccount button {
-        margin-top: 3rem;
-        font-size:7vw;
-        color:white;
-        font-family: 'Poppins';
-        font-weight: 300;
-        background-image: linear-gradient(to left, #26578F, #406FA6);
-        margin-left: 0;
-        padding:10px;
-        padding-left:20px;
-        padding-right: 20px;
-        border-radius:1000px;
-        
-        border:none;
-        filter: drop-shadow(0.1rem .1rem 0.4rem darkgrey);
-    }
-
-    nav img {
-        margin-bottom: 3rem;
-    } */
 }
 
 @media only screen and (max-width: 450px) {
+    
     .container {
         width: 95%;
     }
