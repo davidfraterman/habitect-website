@@ -85,7 +85,7 @@ nav ul {
 }
 
 .logo {
-    width: 10rem;
+    width: 9rem;
     margin-right: 1.5rem;
 }
 
@@ -193,8 +193,8 @@ p {
 .howitworks section {
     border-radius: 8px;
     background-image: linear-gradient(to right, rgb(3, 3, 3), rgb(31, 31, 31));
-    padding: 2.5rem;
-    margin: 1.5rem;
+    padding: 2rem;
+    margin: 1rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
@@ -226,6 +226,7 @@ p {
     text-align: center;
     color: #CACACA;
     font-weight: normal;
+    margin-bottom: 0;
 }
 
 .subhero {
@@ -237,6 +238,10 @@ p {
 
 .subhero button {
     margin-top: 2rem;
+}
+
+.subhero p {
+    margin-bottom: 0;
 }
 
 .subhero img {
@@ -272,7 +277,7 @@ p {
 }
 
 .treeofsuccess button {
-    margin-top: 3rem;
+    margin-top: 0rem;
     background-image: linear-gradient(to right, rgb(3, 3, 3), rgb(39, 39, 39));
     filter: none;
 }
@@ -321,6 +326,7 @@ footer article {
 footer p {
     color: #C4C4C4;
     margin-top: 0;
+    margin-bottom: 0;
     font-weight: lighter;
 }
 
@@ -526,8 +532,7 @@ p {
     display: inline-block;
     color: white;
     margin: 0;
-    margin-right: 2rem;
-    margin-left: 0.75rem;
+ 
 }
 
 .answers > section > div > h3 {
