@@ -643,12 +643,19 @@ p {
     width: 100%;
   }
 }
+/* mobile */
 
 @media only screen and (max-width: 1000px) {
   .container {
     width: 85%;
   }
 
+  .howitworks section:nth-child(1) {
+    margin-left: 1.5rem;
+  }
+  .howitworks section:nth-child(3) {
+    margin-right: 1.5rem;
+  }
   button {
     margin: 0 auto;
     display: block;
@@ -703,6 +710,7 @@ p {
   .hero p {
     margin-top: 3rem;
     margin-bottom: 3rem;
+    text-align: center;
   }
 
   .hero button {
@@ -766,10 +774,13 @@ p {
     padding-bottom: 3rem;
   }
 
+  nav ul li a button {
+    margin-top: 0;
+  }
+
   nav ul li {
     text-align: center;
-    display: block;
-    margin-bottom: 0.5rem;
+    /* display: block; */
   }
 
   nav ul li a {
@@ -781,12 +792,6 @@ p {
     margin-left: 0;
     float: none;
     vertical-align: middle;
-  }
-
-  nav .createaccount button {
-    display: block;
-    margin: auto;
-    margin-top: 3rem;
   }
 
   nav > ul > a {
