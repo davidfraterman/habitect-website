@@ -14,7 +14,8 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(to top, #1c427c, #183b85);
+  /* background-image: linear-gradient(to top, #1c427c, #183b85); */
+  background-color: #1b72d8;
 }
 
 .container {
