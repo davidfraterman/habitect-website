@@ -232,7 +232,7 @@ p {
   font-size: 120%;
   letter-spacing: 0.1rem;
   margin-bottom: 1rem;
-  background-color: #113e73;
+  background-color: #257ee4;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   padding: 1rem;
@@ -294,12 +294,13 @@ p {
 }
 
 .treeofsuccess p {
-  color: #e0e0e0;
+  color: #fcfcfc;
 }
 
 .treeofsuccess button {
   margin-top: 0rem;
-  background-image: linear-gradient(to right, rgb(3, 3, 3), rgb(39, 39, 39));
+  background-color: #272727;
+  /* background-image: linear-gradient(to right, rgb(3, 3, 3), rgb(39, 39, 39)); */
   filter: none;
 }
 
@@ -324,7 +325,7 @@ p {
 }
 
 .treeofsuccess img {
-  width: 40rem;
+  width: 35rem;
 }
 
 .treeofsuccess mark {
@@ -333,7 +334,7 @@ p {
 
 footer {
   overflow-x: hidden;
-  background-color: #414141;
+  background-color: #272727;
 }
 
 footer article {
