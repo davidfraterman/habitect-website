@@ -34,7 +34,7 @@ button a:hover {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 17px;
-  background: white no-repeat fixed center;
+  background: #fcfcfc no-repeat fixed center;
 }
 
 ul {
@@ -103,7 +103,7 @@ mark {
 
 button {
   font-size: 110%;
-  color: white;
+  color: #fcfcfc;
   font-family: "Poppins";
   font-weight: 300;
   background-color: #1b72d8;
@@ -120,7 +120,7 @@ button {
 
 nav .createaccount button {
   font-size: 90%;
-  color: white;
+  color: #fcfcfc;
   font-family: "Poppins";
   font-weight: 300;
   background-color: #1b72d8;
@@ -172,7 +172,7 @@ p {
 }
 
 .howitworks {
-  color: white;
+  color: #fcfcfc;
   background-color: #1b72d8;
   /* background-image: linear-gradient(to left, #26578f, #4577af); */
   margin-bottom: 10rem;
@@ -192,10 +192,11 @@ p {
 
 .howitworks section {
   border-radius: 8px;
-  background-color: #272727;
+  background-color: #257ee4;
   /* background-image: linear-gradient(to right, rgb(3, 3, 3), rgb(31, 31, 31)); */
-  padding: 2rem;
-  margin: 1rem;
+  /* padding: 2rem; */
+  filter: drop-shadow(0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.164));
+  margin: 1.2rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
@@ -217,25 +218,36 @@ p {
   padding: 1rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   display: inline-block;
 }
 
 .howitworks h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 4rem;
   font-size: 120%;
   letter-spacing: 0.1rem;
   margin-bottom: 1rem;
-  color: #ececec;
+  background-color: #113e73;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 1rem;
+  color: white;
   text-align: center;
 }
 
 .howitworks p {
-  text-align: center;
-  color: #cacaca;
+  text-align: left;
+  color: #fcfcfc;
   font-weight: normal;
   margin-bottom: 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 
 .subhero {
@@ -278,7 +290,7 @@ p {
 }
 
 .treeofsuccess h1 {
-  color: white;
+  color: #fcfcfc;
 }
 
 .treeofsuccess p {
@@ -300,7 +312,7 @@ p {
   padding: 1rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   display: inline-block;
@@ -342,7 +354,7 @@ footer p {
 footer h4 {
   font-size: 110%;
   margin-bottom: 2rem;
-  color: white;
+  color: #fcfcfc;
 }
 
 /* ************** */
@@ -428,7 +440,7 @@ footer h4 {
 .signup form input[type="submit"] {
   font-family: "Poppins", sans-serif;
   border-radius: 1000px;
-  color: white;
+  color: #fcfcfc;
   background-image: linear-gradient(to left, #26578f, #4c7aaf);
   outline: none;
   padding: 0.6rem;
@@ -520,7 +532,7 @@ p {
   background-image: linear-gradient(to left, #1c3653, #0c243f);
   margin-top: 1rem;
   background-color: #183b85;
-  color: white;
+  color: #fcfcfc;
   padding: 1rem;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -539,7 +551,7 @@ p {
 .answers > section > div > p {
   font-size: 130%;
   display: inline-block;
-  color: white;
+  color: #fcfcfc;
   margin: 0;
 }
 
