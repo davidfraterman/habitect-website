@@ -152,6 +152,9 @@ button:hover {
   float: right;
 }
 
+.hero button {
+  margin-top: 2rem;
+}
 h1 {
   font-size: 300%;
   line-height: 110%;
@@ -477,6 +480,10 @@ footer h4 {
 .answers h2 {
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.answers p {
+  text-align: center;
 }
 
 details {
