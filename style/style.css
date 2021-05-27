@@ -592,6 +592,10 @@ details .details-wrapper .details-card button {
   filter: none;
   border-radius: 5px;
 }
+
+.answers {
+  margin-bottom: 6rem;
+}
 /* ************** */
 /* MEDIA QUERIES */
 /* ************** */
@@ -854,6 +858,10 @@ details .details-wrapper .details-card button {
 
   .subhero {
     margin-bottom: 6rem;
+  }
+
+  .answers details .details-wrapper {
+    grid-template-columns: 1fr;
   }
 }
 
