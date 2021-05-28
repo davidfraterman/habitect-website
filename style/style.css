@@ -301,7 +301,7 @@ p {
 }
 
 .treeofsuccess button {
-  margin-top: 0rem;
+  margin-top: 2rem;
   background-color: #272727;
   /* background-image: linear-gradient(to right, rgb(3, 3, 3), rgb(39, 39, 39)); */
   filter: none;
