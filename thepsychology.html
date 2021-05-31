@@ -19,7 +19,7 @@
 <body>
     <main class="container">
         <nav>
-            <ul>
+            <ul class="desktopnav">
                 <a href="index.html"><img class="logo" loading="eager" src="img/logohabitual.PNG"
                         alt="The logo of Habitect"></a>
                 <li><a href="index.html">Home</a></li>
@@ -27,6 +27,21 @@
                 <li> <a href="faq.html">FAQ Finder</a> </li>
                 <li class="createaccount"><a href="app.html"><button>Go to App</button></a></li>
             </ul>
+
+            <ul class="mobilenav">
+                <a href="#"><img class="logo" loading="eager" src="img/logohabitual.png" alt="The logo of Habitect"></a>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </ul>
+
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="#">The Psychology</a>
+                    <a href="faq.html">FAQ Finder</a>
+                    <a href="app.html"><button>Go to App</button></a>
+                </div>
+            </div>
         </nav>
         <article class="hero heropsy">
             <section>
@@ -121,6 +136,17 @@
             </section>
         </article>
     </footer>
+
+    <!-- MENU MOBILE -->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
 </body>
 
 </html>
