@@ -519,7 +519,7 @@ footer h4 {
   color: #1b72d8;
   filter: none;
   padding: 0.5rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
 }
@@ -756,11 +756,28 @@ details .details-wrapper .details-card button {
   }
 
   h2 {
-    font-size: 95%;
+    font-size: 90%;
   }
 
   p {
     font-size: 85%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .treeofsuccess div section p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .subhero section p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero section p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .container {
@@ -809,6 +826,7 @@ details .details-wrapper .details-card button {
   .hero {
     grid-template-columns: 1fr;
     margin-right: 0rem;
+    margin-bottom: 2rem;
   }
 
   .hero img {
@@ -928,7 +946,7 @@ details .details-wrapper .details-card button {
   }
 
   .hero {
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
   }
 
   .subhero {
