@@ -2,15 +2,19 @@
   margin: 0;
   padding: 0;
 }
-/* 
-* {
-    background: #000 !important;
-    color: #0f0 !important;
-    outline: solid #f00 1px !important;
-  } */
+
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
+
+/* * {
+  outline: 1px solid red;
+} */
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -144,7 +148,7 @@ button:hover {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 0rem;
   margin-top: 10rem;
-  margin-bottom: 12rem;
+  margin-bottom: 10rem;
 }
 
 .hero img {
@@ -337,7 +341,7 @@ p {
 
 footer {
   overflow-x: hidden;
-  background-color: #272727;
+  background-color: #161616;
 }
 
 footer article {
@@ -673,8 +677,24 @@ details .details-wrapper .details-card button {
 /* mobile */
 
 @media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 200%;
+  }
+
+  h2 {
+    font-size: 100%;
+  }
+
+  p {
+    font-size: 90%;
+  }
+
   .container {
-    width: 85%;
+    width: 55%;
+  }
+
+  .treeofsuccess div {
+    width: 55%;
   }
 
   .howitworks section:nth-child(1) {
@@ -854,6 +874,10 @@ details .details-wrapper .details-card button {
 }
 
 @media only screen and (max-width: 750px) {
+  .container {
+    width: 85%;
+  }
+
   .articles .article-row-of-2 {
     grid-template-columns: 1fr;
     grid-row-gap: 4rem;
@@ -873,14 +897,16 @@ details .details-wrapper .details-card button {
 }
 
 @media only screen and (max-width: 600px) {
-  .hero {
-    margin-top: 4rem;
+  footer article section h4 {
+    text-align: left;
   }
 
-  button {
-    width: 100%;
-    height: 55px;
-    font-size: 110%;
+  footer article section p {
+    text-align: left;
+  }
+
+  .hero {
+    margin-top: 4rem;
   }
 
   nav ul li button {
@@ -890,8 +916,14 @@ details .details-wrapper .details-card button {
 }
 
 @media only screen and (max-width: 450px) {
+  button {
+    width: 60%;
+    height: 55px;
+    font-size: 100%;
+  }
+
   .container {
-    width: 95%;
+    width: 90%;
   }
 
   .howitworks div {
