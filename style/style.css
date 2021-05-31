@@ -740,6 +740,7 @@ details .details-wrapper .details-card button {
 @media only screen and (max-width: 1000px) {
   nav .mobilenav {
     display: block;
+    margin-top: 1rem;
   }
 
   nav .desktopnav {
@@ -747,15 +748,15 @@ details .details-wrapper .details-card button {
   }
 
   h1 {
-    font-size: 200%;
+    font-size: 185%;
   }
 
   h2 {
-    font-size: 100%;
+    font-size: 95%;
   }
 
   p {
-    font-size: 90%;
+    font-size: 85%;
   }
 
   .container {
@@ -965,7 +966,7 @@ details .details-wrapper .details-card button {
   }
 
   .treeofsuccess div {
-    width: 95%;
+    width: 90%;
   }
 
   footer article {
