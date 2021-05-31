@@ -747,6 +747,10 @@ details .details-wrapper .details-card button {
     display: none;
   }
 
+  nav .mobilenav a .logo {
+    margin-top: 0.25em;
+  }
+
   h1 {
     font-size: 185%;
   }
