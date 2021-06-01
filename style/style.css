@@ -668,6 +668,17 @@ details .details-wrapper .details-card button {
 .answers {
   margin-bottom: 6rem;
 }
+
+/* 
+App */
+
+.applogo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 15rem;
+}
+
 /* ************** */
 /* MEDIA QUERIES */
 /* ************** */
@@ -969,6 +980,10 @@ details .details-wrapper .details-card button {
 
   .hero {
     margin-top: 4rem;
+  }
+
+  .applogo {
+    width: 10rem;
   }
 }
 
