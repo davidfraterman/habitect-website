@@ -426,12 +426,10 @@ footer h4 {
   color: #fcfcfc;
 }
 
-/* ************** */
-/* THE PSYCHOLOGY */
-/* ************** */
+/* HEROPSY MAAR EIGENLIJK VOOR FAQ SECTION */
 
 .heropsy section:first-of-type {
-  border-right: 2px solid #d6d6d6;
+  border-right: none;
   padding-right: 6rem;
   padding-left: 0;
 }
@@ -444,92 +442,125 @@ footer h4 {
   margin-left: 6rem;
 }
 
-.articles {
-  display: grid;
-  grid-template-columns: 1fr;
-}
+/* ************** */
+/* THE PSYCHOLOGY */
+/* ************** */
 
-.articles .article-row-of-2 {
+.thepsychology-hero {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 4rem;
-  margin-bottom: 4rem;
+  border-radius: 12px;
+  background-color: white;
+  filter: drop-shadow(0.1rem 0.1rem 0.6rem rgba(0, 0, 0, 0.075));
 }
 
-.articles .article-row-of-3 {
-  grid-template-columns: 1fr 1fr 1fr;
+.thepsychology-hero-text {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+}
+
+.thepsychology-hero-text h3 {
+  font-size: 100%;
+  color: #9cb7d4;
+}
+.thepsychology-hero-text h1 {
+  font-size: 160%;
+  color: #363633;
+}
+.thepsychology-hero-text p {
+  color: #363633;
+}
+
+.thepsychology-hero-image {
+  width: 100%;
+  margin: 0;
+  border-radius: 12px;
+}
+
+.thepsychology-hero-image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thepsychology-hero-image-wrapper {
+  margin: 1.5rem;
+}
+
+.articles p {
+  margin: 0;
+}
+
+.articles {
   display: grid;
-  grid-column-gap: 4rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 3rem;
+  grid-column-gap: 3rem;
   margin-bottom: 4rem;
 }
 
-.articles .article {
-  background-color: #f2f2f2;
-  padding: 1.5rem;
-  border-radius: 8px;
+.article {
+  background-color: white;
+  filter: drop-shadow(0.1rem 0.1rem 0.6rem rgba(0, 0, 0, 0.075));
+  border-radius: 12px;
 }
 
-.articles .article h2 {
-  color: #1b72d8;
+.article-image {
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
 }
 
-.articles .article .one {
-  color: #456181;
-  border-color: #456181;
+.article-body {
+  margin: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-.articles .article .two {
-  color: #6b6038;
-  border-color: #6b6038;
+.article-body .article-text .article-h1 {
+  font-size: 140%;
+  color: #494949;
+  margin-bottom: 0.5em;
 }
 
-.articles .article .three {
-  color: #502e2a;
-  border-color: #502e2a;
+.article-p {
+  color: #7e7e7e;
+  font-size: 75%;
+  margin-bottom: 0.2rem;
 }
 
-.articles .article .four {
-  color: #425c34;
-  border-color: #425c34;
+.article-time .article-minutes {
+  color: #7e7e7e;
+  font-size: 70%;
+  display: inline;
 }
 
-.articles .article .five {
-  color: #5f5329;
-  border-color: #5f5329;
+.article-time {
+  margin-bottom: 0.3rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
-.articles .article .six {
-  color: #3b2b5c;
-  border-color: #3b2b5c;
+.article-body .article-time img {
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-right: 0.4rem;
 }
 
-.articles .article .seven {
-  color: #286459;
-  border-color: #286459;
+.article-read {
+  margin-top: 1rem;
 }
 
-.articles .article .eight {
-  color: #212247;
-  border-color: #212247;
-}
-
-.articles .article button {
-  background-color: transparent;
-  border: 3px solid #1b72d8;
-  color: #1b72d8;
-  filter: none;
-  padding: 0.5rem;
-  margin-top: 1.5rem;
-  padding-left: 0.8rem;
-  padding-right: 0.8rem;
-}
-
-#psy-button {
-  margin: auto;
-  display: block;
-  float: none;
-  margin-top: 2rem;
-  margin-bottom: 6rem;
+.article-read p {
+  font-size: 75%;
+  color: black;
 }
 
 /* ************** */
