@@ -446,7 +446,7 @@ footer h4 {
 /* THE PSYCHOLOGY */
 /* ************** */
 
-.thepsychology-hero {
+.thepsychology-banner-article {
   margin-top: 3rem;
   margin-bottom: 3rem;
   width: 100%;
@@ -457,7 +457,7 @@ footer h4 {
   filter: drop-shadow(0.1rem 0.1rem 0.6rem rgba(0, 0, 0, 0.075));
 }
 
-.thepsychology-hero-text {
+.thepsychology-banner-article-text {
   margin: 3rem;
   display: flex;
   justify-content: center;
@@ -465,31 +465,31 @@ footer h4 {
   max-width: 90%;
 }
 
-.thepsychology-hero-text h3 {
+.thepsychology-banner-article-text h3 {
   font-size: 100%;
   color: #9cb7d4;
 }
-.thepsychology-hero-text h1 {
+.thepsychology-banner-article-text h1 {
   font-size: 160%;
   color: #363633;
 }
-.thepsychology-hero-text p {
+.thepsychology-banner-article-text p {
   color: #363633;
 }
 
-.thepsychology-hero-image {
+.thepsychology-banner-article-image {
   width: 100%;
   margin: 0;
   border-radius: 12px;
 }
 
-.thepsychology-hero-image-section {
+.thepsychology-banner-article-image-section {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.thepsychology-hero-image-wrapper {
+.thepsychology-banner-article-image-wrapper {
   margin: 1.5rem;
 }
 
@@ -509,6 +509,7 @@ footer h4 {
   background-color: white;
   filter: drop-shadow(0.1rem 0.1rem 0.6rem rgba(0, 0, 0, 0.075));
   border-radius: 12px;
+  transition: 0.2s all;
 }
 
 .article-image {
@@ -556,10 +557,20 @@ footer h4 {
 
 .article-read {
   margin-top: 1rem;
+  transition: 0.2s all;
 }
 
-.article-read p {
-  font-size: 75%;
+.article-read a {
+  font-size: 80%;
+  color: black;
+}
+
+.article-button {
+  margin-top: 1.5rem;
+  background-color: transparent;
+  font-size: 85%;
+  filter: none;
+  background-color: #f7f7f7;
   color: black;
 }
 
@@ -780,6 +791,18 @@ App */
 /* mobile */
 
 @media only screen and (max-width: 1000px) {
+  /* blog */
+
+  .articles {
+    grid-template-columns: 1fr;
+  }
+
+  .thepsychology-banner-article {
+    display: none;
+  }
+
+  /* nav */
+
   nav .mobilenav {
     display: block;
     margin-top: 1rem;

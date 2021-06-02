@@ -16,42 +16,29 @@
 </head>
 
 <body>
-
-    <!-- NOTICE CODE BLOCK -->
-    <!-- <div id="notice" style="width: 100%;background-color:#1b73d883;">
-        <p style="color:white;text-align:center;padding:0.75rem;margin-top: 0;font-size: 85%;">
-            <span style="font-weight: bolder;">NOTICE: </span>Habitect is currently in development, thank you for
-            visiting!
-            <span style="cursor:pointer;text-decoration: underline;padding-left: 1rem;" onClick="(function(){
-                        document.getElementById('notice').style.display = 'none';
-                        })();">Got it</span>
-        </p>
-    </div> -->
-
     <main class="container">
-
-        <!-- navigation -->
+        <!-- Navigation -->
         <nav>
+            <!-- Desktop -->
             <ul class="desktopnav">
                 <a href="#"><img class="logo" loading="eager" src="img/classylogo.png" alt="The logo of Habitect"></a>
                 <li> <a href="#" class="active">Home</a></li>
-                <li> <a href="thepsychology.html">The Psychology</a> </li>
-                <li> <a href="faq.html">FAQ Finder</a> </li>
+                <li><a href="faq.html">FAQ Finder</a></li>
+                <li><a href="blog.html">Blog</a></li>
                 <li class="createaccount"><a href="app.html"><button>Go to App</button></a></li>
-
             </ul>
-
+            <!-- Mobile -->
             <ul class="mobilenav">
                 <a href="#"><img class="logo" loading="eager" src="img/classylogo.png" alt="The logo of Habitect"></a>
                 <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
             </ul>
-
-            <div id="myNav" class="overlay">
+            <!-- Mobile menu -->
+            <div id="mobileoverlay" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
                     <a href="index.html">Home</a>
-                    <a href="thepsychology.html">The Psychology</a>
                     <a href="faq.html">FAQ Finder</a>
+                    <a href="blog.html">Blog</a>
                     <a href="app.html"><button>Go to App</button></a>
                 </div>
             </div>
@@ -74,9 +61,7 @@
                         alt="A woman sitting reading a book in a livingroom">
                 </figure>
             </section>
-
         </article>
-
     </main>
 
     <article class="howitworks">
@@ -107,7 +92,6 @@
                 </p>
             </section>
         </div>
-
     </article>
 
     <main class="container">
@@ -137,12 +121,9 @@
         <div class="title">
             <h3>WHY OUR APP WORKS</h3>
         </div>
-
         <div>
             <section>
                 <h1>Attractive, effortless, evident and satisfying</h1>
-                <p>
-                </p>
                 <p>
                     These four things are crucial to forming new habits.
                     Our app is well-designed and optimized to make your experience as smooth as possible throughout your
@@ -153,7 +134,6 @@
                     Being able to keep track of your habits and seeing your progress through the statistics makes your
                     experience using Habitect satisfying and your habits evident.
                 </p>
-
                 <a href="app.html"><button>Go to App</button></a>
             </section>
             <section>
@@ -190,7 +170,6 @@
 
     <footer>
         <article>
-
             <section>
                 <h4>Socials</h4>
                 <p>Instagram</p>
@@ -208,18 +187,17 @@
                 <p>Disclaimers</p>
                 <p>Policies</p>
             </section>
-
         </article>
     </footer>
 
     <!-- MENU MOBILE -->
     <script>
         function openNav() {
-            document.getElementById("myNav").style.height = "100%";
+            document.getElementById("mobileoverlay").style.height = "100%";
         }
 
         function closeNav() {
-            document.getElementById("myNav").style.height = "0%";
+            document.getElementById("mobileoverlay").style.height = "0%";
         }
     </script>
 </body>
