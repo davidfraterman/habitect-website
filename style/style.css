@@ -531,7 +531,7 @@ footer h4 {
 
 .article-p {
   color: #7e7e7e;
-  font-size: 75%;
+  font-size: 85%;
   margin-bottom: 0.2rem;
 }
 
@@ -596,7 +596,7 @@ footer h4 {
 details {
   margin: 1rem auto;
   padding: 0 1rem;
-  width: 45em;
+  width: 35em;
   max-width: calc(100% - 2rem);
   position: relative;
   border-radius: 3px;
