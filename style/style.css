@@ -832,8 +832,16 @@ App */
 @media only screen and (max-width: 1000px) {
   /* faq item */
 
+  #signupback a {
+    color: #263238;
+    font-size: 150%;
+  }
+
   .faq-item {
     padding: 3rem;
+  }
+  .faq-item {
+    margin-bottom: 3.5rem;
   }
 
   /* blog */
