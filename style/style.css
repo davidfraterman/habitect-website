@@ -30,8 +30,12 @@ nav .mobilenav span {
   z-index: 1;
   top: 0;
   left: 0;
-  background: rgb(27,114,216);
-background: linear-gradient(356deg, rgba(27,114,216,0.8701427331131496) 0%, rgba(27,114,216,1) 100%);
+  background: rgb(27, 114, 216);
+  background: radial-gradient(
+    circle,
+    rgba(27, 114, 216, 1) 0%,
+    rgba(27, 114, 216, 0.6313786881693293) 100%
+  );
   /* background-color: rgba(0, 0, 0, 0.9); */
   overflow-y: hidden;
   transition: 0.5s;
