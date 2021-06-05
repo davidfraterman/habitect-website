@@ -5,6 +5,15 @@
 
 /* MENU */
 
+#signupback a {
+  color: #263238;
+  font-size: 120%;
+}
+
+#signupback a:hover {
+  text-decoration: underline;
+}
+
 nav .mobilenav {
   display: none;
 }
@@ -721,6 +730,35 @@ App */
   width: 15rem;
 }
 
+/* FAQ ITEMS */
+
+.faq-item {
+  background-color: white;
+  border-radius: 10px;
+  filter: drop-shadow(0.1rem 0.1rem 0.6rem rgba(0, 0, 0, 0.048));
+  padding: 6rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.faq-item h1 {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.faq-item h2 {
+  color: #1b72d8;
+  margin-top: 5rem;
+}
+
+.faq-item h5 {
+  margin-top: 2rem;
+}
+
+.faq-item p {
+  margin-top: 0.5rem;
+}
+
 /* ************** */
 /* MEDIA QUERIES */
 /* ************** */
@@ -791,6 +829,12 @@ App */
 /* mobile */
 
 @media only screen and (max-width: 1000px) {
+  /* faq item */
+
+  .faq-item {
+    padding: 3rem;
+  }
+
   /* blog */
 
   .articles {
@@ -1001,6 +1045,10 @@ App */
 }
 
 @media only screen and (max-width: 750px) {
+  .faq-item {
+    padding: 1.5rem;
+  }
+
   .container {
     width: 85%;
   }
