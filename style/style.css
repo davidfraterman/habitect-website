@@ -922,6 +922,10 @@ App */
     width: 55%;
   }
 
+  .treeofsuccess div section {
+    margin-top: 4rem;
+  }
+
   .howitworks section:nth-child(1) {
     margin-left: 1.5rem;
   }
@@ -1008,6 +1012,7 @@ App */
 
   .howitworks .title {
     margin-top: 0;
+    padding-bottom: 0;
   }
 
   .howitworks section {
@@ -1024,11 +1029,11 @@ App */
 
   .subhero p {
     margin-top: 3rem;
-    margin-bottom: 3rem;
   }
 
   .subhero {
     grid-template-columns: 1fr;
+    margin-bottom: 6rem;
   }
 
   .treeofsuccess {
@@ -1096,7 +1101,7 @@ App */
   }
 
   .subhero {
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
 
   .answers details .details-wrapper {
