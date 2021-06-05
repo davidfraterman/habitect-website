@@ -720,6 +720,10 @@ details .details-wrapper .details-card button {
   float: right;
 }
 
+details .details-wrapper .details-card button:hover {
+  transform: scale(1.05);
+}
+
 .answers {
   margin-bottom: 6rem;
 }
