@@ -31,7 +31,7 @@ nav .mobilenav span {
   top: 0;
   left: 0;
 
-  background-color: #1b73d8ee;
+  background-color: #1b73d8f6;
   overflow-y: hidden;
   transition: 0.5s;
 }
@@ -39,14 +39,13 @@ nav .mobilenav span {
 .overlay-content {
   position: relative;
   top: 25%;
-  width: 70%;
-  margin: 0 auto;
-  text-align: right;
+  width: 100%;
+  text-align: center;
   margin-top: 30px;
 }
 
 .overlay a {
-  padding: 12px;
+  padding: 8px;
   text-decoration: none;
   color: #f7f7f7;
   display: block;
@@ -55,8 +54,7 @@ nav .mobilenav span {
 }
 
 .overlay a button {
-  margin-top: 70%;
-  width: 100%;
+  margin-top: 5rem;
   filter: none;
   color: #1b72d8;
   background-color: white;
