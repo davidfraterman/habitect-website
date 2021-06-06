@@ -11,14 +11,21 @@ html {
 
 .signupback {
   background-color: transparent;
+  font-size: 95%;
   border: 2px solid #757575;
   border-radius: 5px;
   filter: none;
   color: #757575;
-  padding: 0.4rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 0.3rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
   transition: none;
+}
+
+.signupback:hover {
+  transform: none;
+  color: #9b9b9b;
+  border-color: #9b9b9b;
 }
 
 nav .mobilenav {
@@ -1170,8 +1177,9 @@ App */
   }
 
   .signupback {
-    width: 40%;
-    height: 50px;
+    width: inherit;
+    height: inherit;
+    font-size: inherit;
   }
 
   .container {
