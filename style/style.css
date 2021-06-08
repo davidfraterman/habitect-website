@@ -817,7 +817,7 @@ App */
   padding: 16px;
   background-color: #f7f7f7;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   width: calc(100% - 2.25rem);
   border: 3px solid #f7f7f7;
   font-size: 18px;
@@ -842,15 +842,14 @@ App */
 .formwrapper input:focus {
   background-color: #fdfdfd;
   border: 3px solid #1b72d8;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 3px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 15px -18px inset;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
 .formwrapper button {
   padding: 13px;
   background-color: #1b72d8;
   border: 3px solid #1b72d8;
-  border-radius: 8px;
+  border-radius: 5px;
   width: 100%;
   min-width: 180px;
   font-size: 18px;
