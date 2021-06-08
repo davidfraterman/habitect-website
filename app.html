@@ -53,11 +53,12 @@ background: -webkit-linear-gradient(270deg, hsla(212, 78%, 48%, 1) 0%, hsla(212,
             <section class="formwrapper">
                 <h2 style="color:#f7f7f7;margin-bottom: 1rem;font-size: 150%;">NOTIFY ME AT LAUNCH</h2>
 
-                <form name="capture" method="POST" data-netlify="true">
+                <form name="capture" method="POST" data-netlify-recaptcha="true" data-netlify="true">
 
                     <input type="email" name="email" placeholder="example@email.com" required />
                     <button type="submit">Notify me</button>
 
+                    <div data-netlify-recaptcha="true"></div>
 
                 </form>
                 <p style="text-align: center;">We'll never share your details with anyone.</p>
