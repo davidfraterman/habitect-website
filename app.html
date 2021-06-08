@@ -46,22 +46,27 @@ background: -webkit-linear-gradient(270deg, hsla(212, 78%, 48%, 1) 0%, hsla(212,
             <section>
                 <p style="color:white;font-size: 90%;">
                     Habitect is currently being developed, so unfortunately you won't be able to use it now.<br>
-                    Please return once the app has been launched.
+                    Enter your E-mail below to be notified once we launch.
                 </p>
 
             </section>
+            <section class="formwrapper">
+                <form name="capture" method="POST" data-netlify="true">
+                    <p>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" placeholder="example@email.com" />
+                    </p>
+                    <p>
+                        <button type="submit">Stay up to date</button>
+                    </p>
+                </form>
+            </section>
+
 
 
         </article>
 
-        <form name="capture" method="POST" data-netlify="true">
-            <p>
-                <label>Your Email: <input type="email" name="email" /></label>
-            </p>
-            <p>
-                <button type="submit">Send</button>
-            </p>
-        </form>
+
     </main>
 </body>
 

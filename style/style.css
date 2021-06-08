@@ -795,6 +795,47 @@ App */
   cursor: pointer;
 }
 
+/* App */
+
+.formwrapper {
+  width: 30%;
+  margin: 0 auto;
+  background-color: #2e88ee;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+
+.formwrapper p {
+  margin: 0;
+  text-align: left;
+}
+
+form[name="capture"] input {
+  background-color: #f7f7f7;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+  font-size: 100%;
+  width: 80%;
+}
+
+form label {
+  display: block;
+  color: #f7f7f7;
+  text-align: left;
+}
+
+button[type="submit"] {
+  margin-top: 2rem;
+  background-color: #1b72d8;
+  color: white;
+  filter: none;
+  padding: 10px;
+  font-size: 100%;
+}
+
 /* ************** */
 /* MEDIA QUERIES */
 /* ************** */
