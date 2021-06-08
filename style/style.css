@@ -798,11 +798,12 @@ App */
 /* App */
 
 .formwrapper {
-  background-color: #e9f0f8;
+  background-color: #e1e9f1;
   padding: 2em;
   margin: 0;
-  border-radius: 15px;
-  margin-top: 4rem;
+  border-radius: 8px;
+  margin-top: 3rem;
+  filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(44, 44, 44, 0.151));
 }
 
 .formwrapper label {
@@ -818,7 +819,7 @@ App */
   border-radius: 8px;
   width: calc(100% - 2.25rem);
   border: 3px solid #f7f7f7;
-  font-size: 15px;
+  font-size: 18px;
   min-width: 180px;
   transition: 0.175s all;
   margin-bottom: 1rem;
@@ -829,6 +830,12 @@ App */
   background-color: #fdfdfd;
 
   border: 3px solid #1b72d8;
+}
+
+.appmark {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #1b72d8;
 }
 
 .formwrapper input:focus {
@@ -843,14 +850,14 @@ App */
   border-radius: 8px;
   width: 100%;
   min-width: 180px;
-  font-size: 15px;
+  font-size: 18px;
   outline: none;
 }
 
 .formwrapper button:hover {
-  background-color: #328af0;
-  border-color: #328af0;
-  transform: translateY(-2px);
+  background-color: #2c80e0;
+  border-color: #2c80e0;
+  transform: translateY(-2px) translateX(1px);
 }
 
 .formwrapper p {
