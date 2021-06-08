@@ -827,12 +827,12 @@ App */
 
 .formwrapper input:hover {
   background-color: #fdfdfd;
-  border-color: #fdfdfd;
-  border: 3px solid #fdfdfd;
+
+  border: 3px solid #1b72d8;
 }
 
 .formwrapper input:focus {
-  background-color: white;
+  background-color: #fdfdfd;
   border: 3px solid #1b72d8;
 }
 
