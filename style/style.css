@@ -815,6 +815,8 @@ form[name="capture"] input {
   background-color: #f7f7f7;
   border: none;
   padding: 18px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   border-radius: 5px;
   margin: 0;
   font-size: 20px;
@@ -837,7 +839,7 @@ button[type="submit"] {
   background-color: #1b72d8;
   color: white;
   filter: none;
-  padding: 15px;
+  padding: 12px;
   margin-left: 0.5rem;
   font-size: 20px;
   display: inline;
@@ -924,6 +926,20 @@ button[type="submit"] {
 /* mobile */
 
 @media only screen and (max-width: 1000px) {
+  .formwrapper {
+    width: 80%;
+  }
+
+  form[name="capture"] input {
+    width: 80%;
+  }
+
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+
   details .details-wrapper .details-card button {
     display: block;
     float: left;
@@ -1221,6 +1237,10 @@ button[type="submit"] {
 }
 
 @media only screen and (max-width: 450px) {
+  form[name="capture"] input {
+    width: 90%;
+  }
+
   .hero section figure img {
     width: 95%;
   }
