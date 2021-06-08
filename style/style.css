@@ -798,11 +798,11 @@ App */
 /* App */
 
 .formwrapper {
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
   background-color: #2e88ee;
   padding: 2rem;
-  margin-top: 3rem;
+  margin-top: 6rem;
   border-radius: 10px;
 }
 
@@ -814,26 +814,44 @@ App */
 form[name="capture"] input {
   background-color: #f7f7f7;
   border: none;
-  padding: 10px;
+  padding: 18px;
   border-radius: 5px;
   margin: 0;
-  font-size: 100%;
-  width: 80%;
+  font-size: 20px;
+  display: inline;
+  width: 45%;
+  margin-top: 2rem;
 }
 
-form label {
+/* form label {
+  margin-bottom: 5px;
   display: block;
   color: #f7f7f7;
   text-align: left;
-}
+  font-size: 120%;
+  margin-top: 3rem;
+} */
 
 button[type="submit"] {
-  margin-top: 2rem;
+  border: none;
   background-color: #1b72d8;
   color: white;
   filter: none;
-  padding: 10px;
-  font-size: 100%;
+  padding: 15px;
+  margin-left: 0.5rem;
+  font-size: 20px;
+  display: inline;
+}
+
+.formwrapper p {
+  margin-top: 1rem;
+  font-size: 80%;
+  color: #b2cbdf;
+}
+
+.formcenterwrapper {
+  display: block;
+  margin: 0 auto;
 }
 
 /* ************** */
