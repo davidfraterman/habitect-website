@@ -322,7 +322,7 @@ p {
   min-height: 4rem;
   font-size: 120%;
   letter-spacing: 0.1rem;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   background-color: #257ee4;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -335,7 +335,7 @@ p {
   text-align: left;
   color: #fcfcfc;
   font-weight: normal;
-  margin-bottom: 0;
+  margin-top: 0;
   margin-left: 2rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
@@ -922,7 +922,7 @@ App */
   width: 67vw;
   background-color: black;
   opacity: 0.77;
-  }
+}
 
 .centered {
   text-align: center;
