@@ -951,20 +951,22 @@ App */
     width: 120%;
   }
 
+  .treeofsuccess img {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
   .treeofsuccess div {
     grid-template-columns: 1fr;
-  }
-
-  .treeofsuccess img {
-    display: none;
   }
 
   .treeofsuccess section {
     margin-bottom: 0;
   }
-}
-
-@media only screen and (max-width: 1400px) {
+  .treeofsuccess img {
+    display: none;
+  }
   .container {
     width: 90%;
   }
@@ -1291,7 +1293,7 @@ App */
   }
 
   .subhero {
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
   }
 
   .answers details .details-wrapper {
@@ -1318,6 +1320,7 @@ App */
 
   .hero {
     margin-top: 4rem;
+    margin-bottom: 6rem;
   }
 
   .applogo {
