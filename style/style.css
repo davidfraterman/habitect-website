@@ -927,7 +927,6 @@ App */
   margin: 0 auto;
   width: 12rem;
   margin-bottom: 4rem;
-  animation: 0.25s ease-out 0.25s 1 appLogo;
   animation-fill-mode: backwards;
 }
 
@@ -1080,17 +1079,6 @@ App */
   100% {
     opacity: 0%;
     content: "";
-  }
-}
-
-@keyframes appLogo {
-  0% {
-    opacity: 0%;
-    transform: translateY(-15px);
-  }
-  100% {
-    opacity: 100%;
-    transform: translateY(0);
   }
 }
 
