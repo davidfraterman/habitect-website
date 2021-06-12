@@ -246,7 +246,7 @@ button:hover {
 
 .hero section:nth-child(2) {
   animation: 1s ease-out 0.2s 1 heroSlideIn;
-  animation-fill-mode: backwards;
+  /* animation-fill-mode: backwards; */
 }
 
 .hero button {
