@@ -857,8 +857,8 @@ App */
   color: inherit;
   text-decoration: underline;
   text-decoration-color: #1b72d8;
-  content: "lifechanging";
-  animation: appTitleTextChange 8s linear infinite;
+  content: "amazing";
+  animation: appTitleTextChange 30s linear infinite;
 }
 
 .formwrapper input:focus {
@@ -909,6 +909,8 @@ App */
   min-height: 100vh;
   width: 33vw;
   min-width: 450px;
+
+  overflow: scroll  ;
 }
 
 .capturesection p {
@@ -1010,7 +1012,7 @@ App */
   }
   15% {
     opacity: 100%;
-    content: "great";
+    content: "remarkable";
   }
   20% {
     opacity: 0%;
@@ -1045,18 +1047,32 @@ App */
   }
   65% {
     opacity: 100%;
-    content: "priceless";
+    content: "vital";
   }
   70% {
     opacity: 0%;
   }
   75% {
     opacity: 100%;
-    content: "magical";
+    content: "essential";
+  }
+  80% {
+    opacity: 0%;
+  }
+  85% {
+    opacity: 100%;
+    content: "brilliant";
+  }
+  90% {
+    opacity: 0%;
+  }
+  95% {
+    opacity: 100%;
+    content: "powerful";
   }
   100% {
-    content: "";
     opacity: 0%;
+    content: "";
   }
 }
 
