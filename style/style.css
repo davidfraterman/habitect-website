@@ -28,11 +28,6 @@ html {
   border-color: #9b9b9b;
 }
 
-nav {
-  animation: 0.2s ease-out 0.1s 1 heroSlideInFromTop;
-  animation-fill-mode: backwards;
-}
-
 nav .mobilenav {
   display: none;
 }
@@ -978,14 +973,6 @@ App */
   }
 }
 
-@keyframes menuSlideInFromTop {
-  from {
-    transform: translateY(-100%);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
 /* ************** */
 /* MEDIA QUERIES */
 /* ************** */
