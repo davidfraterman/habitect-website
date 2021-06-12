@@ -300,6 +300,11 @@ p {
   margin: 1.2rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  transition: 0.2s;
+}
+
+.howitworks section:hover {
+  transform: translateY(-5px);
 }
 
 .howitworks section:nth-child(1) {
