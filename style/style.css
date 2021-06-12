@@ -842,7 +842,7 @@ App */
   border: 2px solid #f7f7f7;
   font-size: 18px;
   min-width: 180px;
-  transition: 0.175s all;
+  transition: 0s all;
   margin-bottom: 1rem;
   outline: none;
 }
@@ -922,14 +922,14 @@ App */
   margin: 0 auto;
   width: 12rem;
   margin-bottom: 4rem;
+  animation: 0.4s ease-out 0.25s 1 appLogo;
+  animation-fill-mode: backwards;
 }
 
 .capturesection > section {
   width: 70%;
   display: block;
   margin: 0 auto;
-  animation: 0.4s ease-out 0.15s 1 appCapture;
-  animation-fill-mode: backwards;
 }
 
 .imagesection {
@@ -1078,10 +1078,10 @@ App */
   }
 }
 
-@keyframes appCapture {
+@keyframes appLogo {
   0% {
     opacity: 0%;
-    transform: translateY(30px);
+    transform: translateY(-30px);
   }
   100% {
     opacity: 100%;
