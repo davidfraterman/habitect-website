@@ -928,6 +928,8 @@ App */
   width: 70%;
   display: block;
   margin: 0 auto;
+  animation: 0.4s ease-out 0.05s 1 appCapture;
+  animation-fill-mode: backwards;
 }
 
 .imagesection {
@@ -1073,6 +1075,17 @@ App */
   100% {
     opacity: 0%;
     content: "";
+  }
+}
+
+@keyframes appCapture {
+  0% {
+    opacity: 0%;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
   }
 }
 
