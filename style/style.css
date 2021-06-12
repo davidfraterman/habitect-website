@@ -241,7 +241,7 @@ button:hover {
 }
 
 .hero section:nth-child(1) {
-  animation: 1s ease-out 0s 1 heroSlideInFromTop;
+  animation: 0.9s ease-out 0s 1 heroSlideInFromTop;
 }
 
 .hero section:nth-child(2) {
