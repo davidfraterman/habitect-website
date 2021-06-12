@@ -853,10 +853,12 @@ App */
   border: 3px solid #1b72d8; */
 }
 
-.appmark {
+.appmark:after {
   color: inherit;
   text-decoration: underline;
   text-decoration-color: #1b72d8;
+  content: "lifechanging";
+  animation: appTitleTextChange 8s linear infinite;
 }
 
 .formwrapper input:focus {
@@ -945,7 +947,7 @@ App */
 }
 
 .centered {
-  text-align: center;
+  text-align: left;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -992,6 +994,69 @@ App */
   100% {
     transform: translateY(0);
     opacity: 100%;
+  }
+}
+
+@keyframes appTitleTextChange {
+  0% {
+    opacity: 0%;
+  }
+  5% {
+    opacity: 100%;
+    content: "amazing";
+  }
+  10% {
+    opacity: 0%;
+  }
+  15% {
+    opacity: 100%;
+    content: "great";
+  }
+  20% {
+    opacity: 0%;
+  }
+  25% {
+    opacity: 100%;
+    content: "fantastic";
+  }
+  30% {
+    opacity: 0%;
+  }
+  35% {
+    opacity: 100%;
+    content: "special";
+  }
+  40% {
+    opacity: 0%;
+  }
+  45% {
+    opacity: 100%;
+    content: "important";
+  }
+  50% {
+    opacity: 0%;
+  }
+  55% {
+    opacity: 100%;
+    content: "exceptional";
+  }
+  60% {
+    opacity: 0%;
+  }
+  65% {
+    opacity: 100%;
+    content: "priceless";
+  }
+  70% {
+    opacity: 0%;
+  }
+  75% {
+    opacity: 100%;
+    content: "magical";
+  }
+  100% {
+    content: "";
+    opacity: 0%;
   }
 }
 
