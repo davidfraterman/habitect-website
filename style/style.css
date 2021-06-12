@@ -479,6 +479,16 @@ footer h4 {
 /* THE PSYCHOLOGY */
 /* ************** */
 
+.blogtitle {
+  animation: 0.3s ease-out 0.15s 1 blogTitle;
+  animation-fill-mode: backwards;
+}
+
+.blogundertitle {
+  animation: 0.3s ease-out 0.35s 1 blogTitle;
+  animation-fill-mode: backwards;
+}
+
 .thepsychology-banner-article {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -964,6 +974,18 @@ App */
 @keyframes heroSlideInFromRight {
   0% {
     transform: translateX(40px);
+    opacity: 0%;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes blogTitle {
+  0% {
+    transform: translateX(-40px);
     opacity: 0%;
   }
 
