@@ -245,7 +245,7 @@ button:hover {
 }
 
 .hero section:nth-child(2) {
-  animation: 1s ease-out 0.5s 1 heroSlideInFromBottom;
+  animation: 0.5s ease-out 0.5s 1 heroSlideInFromRight;
   animation-fill-mode: backwards;
 }
 
@@ -960,9 +960,9 @@ App */
   }
 }
 
-@keyframes heroSlideInFromBottom {
+@keyframes heroSlideInFromRight {
   0% {
-    transform: translateY(40px);
+    transform: translateX(40px);
     opacity: 0%;
   }
 
