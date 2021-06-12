@@ -241,12 +241,12 @@ button:hover {
 }
 
 .hero section:nth-child(1) {
-  animation: 1s ease-out 0.15s 1 heroSlideInFromTop;
+  animation: 0.9s ease-in-out 0.15s 1 heroSlideInFromTop;
   animation-fill-mode: backwards;
 }
 
 .hero section:nth-child(2) {
-  animation: 0.7s ease-out 0.65s 1 heroSlideInFromRight;
+  animation: 0.9s ease-in-out 0.65s 1 heroSlideInFromRight;
   animation-fill-mode: backwards;
 }
 
